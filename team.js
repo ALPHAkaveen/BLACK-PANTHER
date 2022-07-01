@@ -31,7 +31,7 @@ const nexusnw = require('xfarr-api')
        addBesi, 
        addEmas, 
        addEmerald,
-       addUmpan,
+       addUmpan, 
        addPotion,
        kurangBesi, 
        kurangEmas, 
