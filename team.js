@@ -1,4 +1,4 @@
-// 🤭RED DRAGON BOT🌹
+//╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮ 🌹
 require('./settings')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 const fs = require('fs')
@@ -30,7 +30,7 @@ const nexusnw = require('xfarr-api')
       addInventori,  
        addBesi, 
        addEmas, 
-       addEmerald,
+       addEmerald, 
        addUmpan, 
        addPotion,
        kurangBesi, 
@@ -102,7 +102,7 @@ const nexusnw = require('xfarr-api')
    const isInventoryMonay = cekDuluJoinAdaApaKagaMonaynyaDiJson(m.sender)
    const ikan = ['🐟','🐠','🐡']   
 //\\
-global.namedd = '╚✺➾ ☬𝗥𝗘𝗗༒𝗗𝗥𝗔𝗚𝗢𝗡-𝗕𝗢𝗧࿐'
+global.namedd = '╚✺➾ ☬╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮࿐'
 //rpg database\\
  let _limit = JSON.parse(fs.readFileSync('./storage/user/limit.json'));
  let _buruan = JSON.parse(fs.readFileSync('./storage/user/hasil_buruan.json'));
@@ -3561,7 +3561,7 @@ case 'allmenu': case 'menuall': {
                     {buttonId: `${prefix}owner`, buttonText: {displayText: '❮❮😎Owner👤❯❯'}, type: 1}]
                 let buttonMessage = {
                     image: { url: 'https://i.ibb.co/x7qYTrq/20220605-103944.jpg'},
-                caption: `🙂-☬𝗥𝗘𝗗༒𝗗𝗥𝗔𝗚𝗢𝗡-𝗕𝗢𝗧࿐\n\nHello, ${pushname}\n\n┏━❯ *${botname}* ❮━😎\n┃
+                caption: `🙂-☬╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮࿐\n\nHello, ${pushname}\n\n┏━❯ *${botname}* ❮━😎\n┃
 ┃╔══☯︎❯ MAIN ❮ 🐲👇
 ┃║
 ┃╠✹🔥 ${prefix}alive
@@ -3851,8 +3851,8 @@ case 'allmenu': case 'menuall': {
 ┃╠✹🔥 ${prefix}shio (indo)
 ┃║
 ┃╚═══════✍︎☬
-┗━❯ *Created By ${ownername}*  ━😎`,
-                footer: RedDragonMdNx.user.name,
+┗━❯ *Created By ${ownername}*kaveesha sithum
+                footer: ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.user.name,
                 buttons,
                 headerType: 4
                 }
@@ -3863,7 +3863,7 @@ case 'allmenu': case 'menuall': {
                         
 case 'mainmenu':
 var unicorn = await getBuffer(picak+'Main Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔═☬❯ MAIN ❮ 🐲👇
 ┃║
@@ -3885,7 +3885,7 @@ break
 
 case 'grupmenu': case 'groupmenu':
 var unicorn = await getBuffer(picak+'Group Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔═☬❯ GROUP ❮ 🐲👇	 
 ┃║       
@@ -3914,8 +3914,8 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 break
 case 'rpgmenu':
 var unicorn = await getBuffer(picak+'Rpg Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━❯ ${botname} ❮━━😎 
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
+┏━❯ ${botname} ❮━━😎╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮ 
 ┃╔═☬❯ RPG ❮ 🐲👇 
 ┃║     
 ┃╠✹🔥 ${prefix}hunting
@@ -3933,7 +3933,7 @@ break
 
 case 'funmenu':
 var unicorn = await getBuffer(picak+'Fun Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔═☬❯ FUN ❮ 🐲👇	
 ┃║        
@@ -3986,7 +3986,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 break
 case 'ownermenu':
 var unicorn = await getBuffer(picak+'Owner Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔═☬❯ OWNER ❮ 🐲👇	   
 ┃║     
@@ -4015,7 +4015,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 break
 case 'downloadmenu':
 var unicorn = await getBuffer(picak+'Downloader Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔═☬❯ DOWNLOADER ❮ 🐲👇
 ┃║	        
@@ -4031,7 +4031,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 break
 case 'searchmenu':
 var unicorn = await getBuffer(picak+'Search Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔══☬❯ SEARCHER ❮ 🐲👇
 ┃║	        
@@ -4051,7 +4051,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 break
 case 'randommenu':
 var unicorn = await getBuffer(picak+'Random Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔══☬❯ RANDOM ❮ 🐲👇
 ┃║	        
@@ -4063,7 +4063,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 break
 case 'randomanimemenu':
 var unicorn = await getBuffer(picak+'Random Anime Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔☬❯ RANDOM ANIME ❮ 🐲👇
 ┃║	        
@@ -4139,7 +4139,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 break
 case 'convertmenu':
 var unicorn = await getBuffer(picak+'Converter Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔══☬❯ CONVERTER ❮ 🐲👇	
 ┃║        
@@ -4159,7 +4159,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔═══☬❯ DATABASE ❮ 🐲👇	
 ┃║        
@@ -4176,7 +4176,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔══☬❯ ANONYMOUS CHAT ❮ 🐲👇
 ┃║	        
@@ -4189,7 +4189,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 break
 case 'islamicmenu':
 var unicorn = await getBuffer(picak+'Islamic Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔══☬❯ ISLAMIC ❮ 🐲👇
 ┃║	        
@@ -4199,7 +4199,7 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 break
 case 'voicechangermenu':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔══☬❯ VOICE CHANGER ❮ 🐲👇	
 ┃║        
@@ -4219,7 +4219,8 @@ await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
 break
 case 'horoscopemenu':
 var unicorn = await getBuffer(picak+'Horoscope Menu')
-await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
+await 
+╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❯ ${botname} ❮━━😎 
 ┃╔══☬❯ HOROSCOPE ❮ 🐲👇
 ┃║	        
