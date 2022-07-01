@@ -1,6 +1,6 @@
 //════════════(00)═══════════════════════════════════════//
 //
-//                              K.PRABHASHA
+//                              KAVEESHA SITHUM
 //𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
 //
 //════════════(00)════════════════//
@@ -19,33 +19,22 @@ global.APIKeys = {
 }
 
 //customize settings\\
-
-global.alivemsg = `My name is RED DRAGON🔥
-My Creator is 𝙺𝙰𝚅𝙴𝙴𝚂𝙷𝙰 😎` //Costomize Alive Message (i'm kaveesha`` )
-
-global.owner = ['+94774579505'] //Owner number in aive msg
-global.premium = ['+94774579505'] //Owner Number info
-global.ownernomer = '+94774579505' //Owner Number <<<
-
-global.ownername = '𝙺𝙰𝚅𝙴𝙴𝚂𝙷𝙰' //Owner Name
-global.botname = ' ☬RED༒DRAGON' //Bot Name ₖₐᵥₑₑₛₕₐ
-
-global.button = '🤭මේක ටච් කරන්න📍' //Costomize A Button Name In Alive Message
-global.btnurl = 'විසික් වෙලා පලයන්' //Change Your Button'
-
-global.region = '𝚜𝚛𝚒 𝚕𝚊𝚗𝚔𝚊, 𝚕𝚊𝚗𝚔𝚊, Kerala' //Country Region
-
-global.packname = '☬RED༒DRAGON࿐' //Bot Pacage Name
-global.author = '𝚔𝚊𝚟𝚎𝚎𝚜𝚑𝚊 𝚜𝚒𝚝𝚑𝚞𝚖❯❯' //Author Name
-global.prefa = ['','!','.','😂','❤','💠'] //Command Prefix eg:(.alive ,alive 😂alive)
-global.sessionName = 'session' //Session Name!
-global.sp = '⭔' //A Charactor In Menu!
-
-
-global.ig = 'https://github.com/prabhasha2006' //Github Account!
-global.footer = '©_Kumuthu.' // DO NOT CHANGE!
-
-global.mess = { // Error Mesages
+global.owner = ['+94774579505'] //DO NOT CHANGE!
+global.premium = ['+94774579505'] //DO NOT CHANGE!
+global.ownernomer = '+94774579505' //DO NOT CHANGE!
+global.ownername = '😎kaveesha' //DO NOT CHANGE!
+global.botname = ' ✮𝐐𝐮𝐞𝐞𝐧-𝐄𝐥𝐬𝐚✮' //YOU CAN CHANGE<<<
+global.footer = '©_kaveesha'
+global.ig = 'https://github.com/nexusNw'
+global.region = 'India, South India, Kerala'
+global.sc = 'https://sites.google.com/view/queenelsabot/home'
+global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
+global.packname = ' ✮✮✮𝐐𝐔𝐄𝐄𝐍---𝐄𝐋𝐒𝐀✮✮✮' //YOU CAN CHANGE<<<
+global.author = 'kaveesha sithum❯❯'
+global.sessionName = 'session'
+global.prefa = ['','!','.','😂','❤','💠']
+global.sp = '⭔'
+global.mess = {
     success: 'Done ✅',
     admin: 'Only Admins can use it!😉',
     botAdmin: 'Bot wants to be an Admin😥',
@@ -54,10 +43,9 @@ global.mess = { // Error Mesages
     private: 'This Features Only For Private Chat!',
     bot: 'This Feature Is Only For Bot😝',
     wait: '👉👈Pleas Wait...',
-    error: 'Error!!! Maybe Api Key Is Expired🤔!',
+    error: 'Error! Maybe Api Key Is Expired🤔!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
-// DO NOT CHANGE \\
     global.limitawal = {
     premium: "Infinity",
     free: 12,
@@ -71,7 +59,7 @@ global.mess = { // Error Mesages
    umpanawal: 5,
    potionawal: 1
 }
-global.thumb = fs.readFileSync('./DragonMedia/image/red-_-dragon-kumuthu.jpg')
+global.thumb = fs.readFileSync('./GojoMedia/gojo.jpg')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
