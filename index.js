@@ -171,14 +171,14 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
         } else return jid
     }
     
-    RedDragonMdNx.ev.on('contacts.update', update => {
+   ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.ev.on('contacts.update', update => {
         for (let contact of update) {
             let id = RedDragonMdNx.decodeJid(contact.id)
             if (store && store.contacts) store.contacts[id] = { id, name: contact.notify }
         }
     })
 
-    RedDragonMdNx.getName = (jid, withoutContact  = false) => {
+╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.getName = (jid, withoutContact  = false) => {
         id = RedDragonMdNx.decodeJid(jid)
         withoutContact = RedDragonMdNx.withoutContact || withoutContact 
         let v
@@ -196,19 +196,19 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
             return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international')
     }
     
-    RedDragonMdNx.sendContact = async (jid, kon, quoted = '', opts = {}) => {
+  ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮ MdNx.sendContact = async (jid, kon, quoted = '', opts = {}) => {
 	let list = []
 	for (let i of kon) {
 	    list.push({
-	    	displayName: await RedDragonMdNx.getName(i + '@s.whatsapp.net'),
+	    	displayName: await ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.getName(i + '@s.whatsapp.net'),
 	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${ownername}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click To Chat\nitem2.EMAIL;type=INTERNET:${sc}\nitem2.X-ABLabel:Script\nitem3.URL:${myweb}\nitem3.X-ABLabel:Script\nitem4.ADR:;;${region};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	RedDragonMdNx.sendMessage(jid, { contacts: { displayName: `${list.length} Contact`, contacts: list }, ...opts }, { quoted })
     }
     
-    RedDragonMdNx.setStatus = (status) => {
-        RedDragonMdNx.query({
+    ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.setStatus = (status) => {
+        ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.query({
             tag: 'iq',
             attrs: {
                 to: '@s.whatsapp.net',
@@ -224,11 +224,11 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
         return status
     }
 	
-    RedDragonMdNx.public = true
+   ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.public = true
 
-    RedDragonMdNx.serializeM = (m) => smsg(RedDragonMdNx, m, store)
+    ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.serializeM = (m) => smsg(RedDragonMdNx, m, store)
 
-    RedDragonMdNx.ev.on('connection.update', async (update) => {
+   ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.ev.on('connection.update', async (update) => {
         const { connection, lastDisconnect } = update	    
         if (connection === 'close') {
         let reason = new Boom(lastDisconnect?.error)?.output.statusCode
@@ -239,12 +239,13 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
             else if (reason === DisconnectReason.loggedOut) { console.log(`🐦Device Logged Out, Please Scan Again And Run.`); RedDragonMdNx.logout(); }
             else if (reason === DisconnectReason.restartRequired) { console.log("🐦Restart Required, Restarting..."); startRedDragonMdNx(); }
             else if (reason === DisconnectReason.timedOut) { console.log("🐦Connection TimedOut, Reconnecting..."); startRedDragonMdNx(); }
-            else RedDragonMdNx.end(`🐦Unknown DisconnectReason: ${reason}|${connection}`)
+            else ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.end(`🐦Unknown DisconnectReason: ${reason}|${connection}`)
         }
         console.log('Connected...', update)
     })
 
-    RedDragonMdNx.ev.on('creds.update', saveState)
+    
+ ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.ev.on('creds.update', saveState)
 
     // Add Other
     /** Send Button 5 Image
@@ -257,7 +258,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} options
      * @returns
      */
-    RedDragonMdNx.send5ButImg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
+    ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.send5ButImg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
         let message = await prepareWAMessageMedia({ image: img }, { upload: RedDragonMdNx.waUploadToServer })
         var template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
         templateMessage: {
@@ -269,7 +270,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
             }
             }
             }), options)
-            RedDragonMdNx.relayMessage(jid, template.message, { messageId: template.key.id })
+           ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.relayMessage(jid, template.message, { messageId: template.key.id })
     }
 
     /**
@@ -281,7 +282,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} quoted 
      * @param {*} options 
      */
-    RedDragonMdNx.sendButtonText = (jid, buttons = [], text, footer, quoted = '', options = {}) => {
+    ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.sendButtonText = (jid, buttons = [], text, footer, quoted = '', options = {}) => {
         let buttonMessage = {
             text,
             footer,
@@ -289,7 +290,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
             headerType: 2,
             ...options
         }
-        RedDragonMdNx.sendMessage(jid, buttonMessage, { quoted, ...options })
+        ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.sendMessage(jid, buttonMessage, { quoted, ...options })
     }
     
     /**
@@ -300,7 +301,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
      * @param {*} options 
      * @returns 
      */
-    RedDragonMdNx.sendText = (jid, text, quoted = '', options) => RedDragonMdNx.sendMessage(jid, { text: text, ...options }, { quoted })
+    ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.sendText = (jid, text, quoted = '', options) => ╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮MdNx.sendMessage(jid, { text: text, ...options }, { quoted })
 
     /**
      * 
