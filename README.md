@@ -40,7 +40,7 @@ Version 4.5 (Chat bot) 2022-06-15 latest
 
 > 🙂➾ [Scan QR In Your Whatsapp From Here](https://replit.com/@KumuthuPrabhash/Red-Dragon-Bot-Qr-Code?v=1)
  
-> 🙂➾ [Fork This Repo By Clicking Here](https://github.com/prabhasha2006/Red-Dragon/fork)
+> 🙂➾ [Fork This Repo By Clicking Here](https://https://github.com/Kaveeshasithum/Red-Dragon)
  
 > 🙂➾ [Then Deploy The Bot From Here](https://heroku.com/deploy)
 
