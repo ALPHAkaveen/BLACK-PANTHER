@@ -38,7 +38,7 @@ Version 4.5 (Chat bot) 2022-06-15 latest
 👇To proccess👇
 </p>
 
-> 🙂➾ [Scan QR In Your Whatsapp From Here](https://replit.com/@KumuthuPrabhash/Red-Dragon-Bot-Qr-Code?v=1)
+> 🙂➾ [Scan QR In Your Whatsapp From Here](https://replit.com/@Kaveesha2006/BLACK-PANTHER-QR?v=1)
  
 > 🙂➾ [Fork This Repo By Clicking Here](https://https://github.com/Kaveeshasithum/Red-Dragon)
  
