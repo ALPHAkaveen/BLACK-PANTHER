@@ -1,5 +1,5 @@
 export interface SyncAdapter<T> {
-    read: () => T | null;
+    read: () => T | null; 
     write: (data: T) => void;
 }
 export declare class LowSync<T = unknown> {
