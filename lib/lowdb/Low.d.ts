@@ -9,3 +9,4 @@ export declare class Low<T = unknown> {
     read(): Promise<void>;
     write(): Promise<void>;
 }
+ 
