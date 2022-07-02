@@ -42,7 +42,7 @@ Version 4.5 (Chat bot) 2022-06-15 latest
  
 > 🙂➾ [Fork This Repo By Clicking Here](https://https://github.com/Kaveeshasithum/Red-Dragon)
  
-> 🙂➾ [Then Deploy The Bot From Here](https://heroku.com/deploy)
+> 🙂➾ [Then Deploy The Bot From Here]((https://heroku.com/deploy?templatehttps://github.com/Kaveeshasithum/BLACK-PANTHE)
 
 > 🙂➾ [Red Dragon Bot Official Website Here](https://sites.google.com/view/red-dragon-bot/home)
 
