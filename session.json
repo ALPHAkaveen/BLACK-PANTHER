@@ -32,7 +32,7 @@
         }
       },
       "signature": {
-        "type": "Buffer",
+        "type": "Buffer", 
         "data": "LHH4VIGxcVUtMmYdzBgpwtwSJp77J8pOg6Ni7MHygAQ80Xlh9YaLlVESZ610qo6TRvHPqpp2H4kzfEb9WSxziQ=="
       },
       "keyId": 1
