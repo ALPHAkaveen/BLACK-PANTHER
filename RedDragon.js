@@ -3468,7 +3468,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             break
 case 'allmenu': {
   	anu = `
-🙂-☬𝗥𝗘𝗗༒𝗗𝗥𝗔𝗚𝗢𝗡-𝗕𝗢𝗧࿐\n
+🙂-╰☆☆ 𝙱𝙻𝙰𝙲𝙺 𝙿𝙰𝙽𝚃𝙷𝙴𝚁 ☆☆╮-𝗕𝗢𝗧࿐\n
 
 Hello, ${pushname}
 
@@ -3727,7 +3727,7 @@ Hello, ${pushname}
 ┃╠✹🔥 ${prefix}zodiak (indo)
 ┃╠✹🔥 ${prefix}shio (indo)
 ┃║
-┃╚═══════✍︎𝕂.ℙ𝕣𝕒𝕓𝕙𝕒𝕤𝕙𝕒
+┃╚═══════✍︎🎧𝙺𝙰𝚅𝙴𝙴𝚂𝙷𝙰 𝚂𝙸𝚃𝙷𝚄𝙼
 ┗━❯ *Created By ${ownername}*  ━😎`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3756,7 +3756,7 @@ break
 case 'mainmenu':
 var unicorn = await getBuffer(picak+'Main Menu')
 await RedDragonMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━❯ ${botname} ❮━━😎 
+┏━❯ ${botname} ❮━━😎 🎧𝙺𝙰𝚅𝙴𝙴𝚂𝙷𝙰 𝚂𝙸𝚃𝙷𝚄𝙼
 ┃╔═☬❯ MAIN ❮ 🐲👇
 ┃║
 ┃╠✹🔥 ${prefix}alive
