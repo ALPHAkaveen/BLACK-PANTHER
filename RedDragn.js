@@ -309,7 +309,7 @@ const reply = (teks) => {
             messages: [proto.WebMessageInfo.fromObject(messages)],
             type: 'append'
         }
-        GojoMdNx.ev.emit('messages.upsert', msg)
+        GojoMdNx.ev.emit('messages.upsert', msg) 
         }
 	    
 	if (('family100'+m.chat in _family100) && isCmd) {
