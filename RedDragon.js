@@ -592,7 +592,7 @@ if (q.includes('--help')) return reply(examkosong)
      teksehmazeh += `*🐄Cow* : ${getSapi(m.sender)}\n`
      teksehmazeh += `*🐘Elephant* : ${getGajah(m.sender)}\n\n`
      teksehmazeh += `_*${pushname}*_`
-     await RedDragonMdNx.send5ButImg(from, `` + '' + teksehmazeh, `© ${footer}`, RedDragonMdNx, [{"urlButton": {"displayText": "YouTube📍","url": `${btnurl}`}}])
+     await blackpantherMdNx.send5ButImg(from, `` + '' + teksehmazeh, `© ${footer}`, blackpantherMdNx, [{"urlButton": {"displayText": "YouTube📍","url": `${btnurl}`}}])
   }
   break
         case 'userlimit': 
@@ -3728,7 +3728,7 @@ Hello, ${pushname}
 ┃╠✹🔥 ${prefix}shio (indo)
 ┃║
 ┃╚═══════✍︎🎧𝙺𝙰𝚅𝙴𝙴𝚂𝙷𝙰 𝚂𝙸𝚃𝙷𝚄𝙼
-┗━❯ *Created By ${ownername}*  ━😎`
+┗━❯ *Created By ${ownername}*  ━😎KAVEESHA SITHUM`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
